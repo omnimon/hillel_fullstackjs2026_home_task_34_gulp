@@ -1,0 +1,34 @@
+{
+  "name": "djerelo-gulp-homework",
+  "version": "1.0.0",
+  "description": "Static Djerelo layout with Gulp automation for SCSS, BrowserSync, autoprefixing and CSS minification.",
+  "type": "module",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build",
+    "clean": "gulp clean",
+    "serve": "gulp serve"
+  },
+  "keywords": [
+    "gulp",
+    "scss",
+    "browser-sync",
+    "frontend"
+  ],
+  "author": "Oleksandr Bielik",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "gulp": "^5.0.1",
+    "gulp-autoprefixer": "^10.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.1.0",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.100.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 0.5%",
+    "not dead"
+  ]
+}
